@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>MY NEW WEBSITE</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+ <style>
+   .imer {
+       height: 950px;
+       width: 500px;
+       margin: -53px;
+      }
+     .bt {
+       border: 0px;
+       background-color: rgb(255,0,0);
+       height: 30px;
+       width: 82px;
+       position: absolute;
+       color: white;
+       border-radius: 3px;
+       left: 325px;
+       font-size: 11px;
+       animation: 3s linear 0s infinite running myOpacity;
+     }
+     @keyframes myOpacity{
+         60%{opacity: 0.105;}
+     }
+     .send {
+       border: 0px;
+       background-color: rgb(255,0,0);
+       height: 30px;
+       width: 80px;
+       position: fixed;
+       color: white;
+       border-radius: 3px;
+       left: 230px;
+     }
+ </style>
+ <div>
+   <a href="index.zip" target=_self>
+    <button class="bt">SUBSCRIBE</button>
+    </a>
+    <button class="send">SEND</button>
+   </div>
+    
+   <div>
+	  <iframe style="border:0" class="imer" src="https://docs.google.com/spreadsheets/d/1GDDsui7Vzt59pqeN6-wRPqtRmnXMM0X-CcGVho6dozw/edit?usp=drivesdk" "width=310 height=1080">
+   </div>
+   
+</body>
+
+</html>
